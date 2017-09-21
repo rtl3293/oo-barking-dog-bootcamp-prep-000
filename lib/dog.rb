@@ -6,12 +6,12 @@ class Dog
   def name
     @name
   end
-  
+
   def bark
     puts "Woof!"
   end
 end
 
 chip = Dog.new
-chip.name("Chip")
+chip.name = "Chip"
 chip.bark
