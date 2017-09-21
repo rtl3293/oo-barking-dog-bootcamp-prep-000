@@ -12,6 +12,6 @@ class Dog
   end
 end
 
-chip = Dog.new
-chip.name = "Chip"
-chip.bark
+fido = Dog.new
+fido.name = "Fido"
+fido.bark
